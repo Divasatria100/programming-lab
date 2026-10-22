@@ -58,3 +58,7 @@ console.log(ubahAngka); // Output: 10 -> hasil konversi dari biner "1010" menjad
 let stringAngka3 = "1231.55";
 let ubahAngka2 = parseFloat(stringAngka3); // mengubah string "1231.55" menjadi bilangan desimal
 console.log(ubahAngka2); // Output: 1231.55 -> hasil konversi dari string "1231.55" menjadi bilangan desimal 1231.55
+
+// 5. isNaN(value): Fungsi ini digunakan untuk memeriksa apakah suatu nilai adalah NaN (Not a Number).
+console.log(isNaN(123)); // Output: false -> 123 adalah angka, bukan NaN
+console.log(isNaN("abc")); // Output: true -> "abc" bukan angka, sehingga hasilnya adalah true
