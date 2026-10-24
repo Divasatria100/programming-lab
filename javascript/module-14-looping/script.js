@@ -74,3 +74,15 @@ for (let nilai of array) {
 }
 
 console.log("Jumlah total: " + sum);
+
+// Break dan Continue
+
+// Break digunakan untuk menghentikan eksekusi loop sebelum kondisi terpenuhi, sedangkan continue digunakan untuk melewati iterasi saat ini dan melanjutkan ke iterasi berikutnya.
+let a = 1;
+while (a <= 10) {
+    if (a === 5) {
+        break; // menghentikan loop saat a sama dengan 5
+    }
+    console.log("Perulangan ke-" + a);
+    a++;
+}
