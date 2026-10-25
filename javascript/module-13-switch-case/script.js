@@ -79,3 +79,5 @@ switch (true) {
     Tidak dapat digunakan untuk memeriksa rentang nilai atau kondisi yang lebih kompleks.
     Tidak dapat digunakan untuk memeriksa tipe data yang berbeda (misalnya string, number, boolean) dalam satu switch case.
 */
+
+// Catatan: Switch case lebih cocok digunakan untuk kondisi yang sederhana dan diskrit, sedangkan if-else-if lebih fleksibel untuk kondisi yang kompleks atau ekspresi yang lebih rumit.
